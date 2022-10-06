@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/imdbMovieList/static/css/main.e5366e8c.css",
-    "main.js": "/imdbMovieList/static/js/main.3c37dcd3.js",
+    "main.js": "/imdbMovieList/static/js/main.35882d1b.js",
     "static/js/787.e253fc0a.chunk.js": "/imdbMovieList/static/js/787.e253fc0a.chunk.js",
     "index.html": "/imdbMovieList/index.html",
     "main.e5366e8c.css.map": "/imdbMovieList/static/css/main.e5366e8c.css.map",
-    "main.3c37dcd3.js.map": "/imdbMovieList/static/js/main.3c37dcd3.js.map",
+    "main.35882d1b.js.map": "/imdbMovieList/static/js/main.35882d1b.js.map",
     "787.e253fc0a.chunk.js.map": "/imdbMovieList/static/js/787.e253fc0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5366e8c.css",
-    "static/js/main.3c37dcd3.js"
+    "static/js/main.35882d1b.js"
   ]
 }
