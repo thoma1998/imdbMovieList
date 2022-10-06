@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         {/* home */}
-        <Route path="/" element={<Home />} /> 
+        <Route path="/imdbMovieList" element={<Home />} /> 
         {/* movie detail page */}
         <Route path="/detail/:id" element={<MovieDetail />} />
       </Routes>
