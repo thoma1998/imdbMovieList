@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.root{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background-color: #22254b;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+}
+header{
+  background-color: #373b69;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.search{
+  width:250px;
+  height:30px;
+  padding-left:15px;
+  border-radius:6px;
+  border:none;
+  color:#939393;
+  font-weight:500;
+  background-color:#fffbf8;
+  -webkit-box-shadow:
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+  -moz-box-shadow: 
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+  box-shadow:
+      0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+      0 1px 1px 0 #fff,
+      0 2px 2px 1px #fafafa,
+      0 2px 4px 0 #b2b2b2 inset,
+      0 -1px 1px 0 #f2f2f2 inset,
+      0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+}
+
+.movie-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie{
+  background-color: #373b69;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  margin: 1rem;
+width: 300px;
+position: relative;
+}
+
+.movie img{
+  max-width: 100%;
+}
+
+.movie-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.movie-info h3{
+  margin: 0;
+}
+
+.movie-over{
+  background-color: white;
+  color: #22254b;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px -3px 5px rgba(0,0,0,0.1);
+position: absolute;
+padding: 1rem;
+bottom: 0;
+left: 0;
+right: 0;
+overflow: auto;
+transform: translateY(125%);
+transition: transform 0.3s ease-in-out;
+}
+
+.movie:hover .movie-over{
+  transform: translateY(0%);
+}
+
+.genres{
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
